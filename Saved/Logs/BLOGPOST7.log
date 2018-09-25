@@ -1,4 +1,4 @@
-﻿Log file open, 09/25/18 11:12:00
+﻿Log file open, 09/25/18 11:24:29
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BLOGPOST7
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-498782173) SRandInit(-498782173).
+LogInit: Display: RandInit(2135863677) SRandInit(2135863677).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.232838
+LogStats: Stats thread started at 0.152972
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,738 +196,454 @@ LogInit: Base directory: D:/Program Files/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.25-15.12.01:646][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.25-15.12.01:646][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.25-15.12.01:651][  0]LogInit: Computer: NQSC125-MSI-INS
-[2018.09.25-15.12.01:651][  0]LogInit: User: bheagney
-[2018.09.25-15.12.01:651][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.25-15.12.01:651][  0]LogInit: High frequency timer resolution =3.515624 MHz
-[2018.09.25-15.12.01:651][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.09.25-15.12.01:651][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.25-15.12.01:651][  0]LogMemory: Process Physical Memory: 271.77 MB used, 271.77 MB peak
-[2018.09.25-15.12.01:651][  0]LogMemory: Process Virtual Memory: 269.80 MB used, 269.80 MB peak
-[2018.09.25-15.12.01:651][  0]LogMemory: Physical Memory: 6335.86 MB used,  26376.66 MB free, 32712.52 MB total
-[2018.09.25-15.12.01:651][  0]LogMemory: Virtual Memory: 4773.90 MB used,  26376.66 MB free, 134217728.00 MB total
-[2018.09.25-15.12.01:731][  0]LogInit: Using OS detected language (en-US).
-[2018.09.25-15.12.01:731][  0]LogInit: Using OS detected locale (en-US).
-[2018.09.25-15.12.01:734][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.25-15.12.02:036][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.25-15.12.02:273][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.25-15.12.02:317][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.25-15.12.02:317][  0]LogD3D11RHI:       8096/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.25-15.12.02:318][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.25-15.12.02:318][  0]LogD3D11RHI:       0/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.25-15.12.02:318][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.25-15.12.02:323][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.25-15.12.02:323][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.25-15.12.02:323][  0]LogWindows: EnumDisplayDevices:
-[2018.09.25-15.12.02:323][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.25-15.12.02:324][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.25-15.12.02:324][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.25-15.12.02:324][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.25-15.12.02:324][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.09.25-15.12.02:324][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.25-15.12.02:324][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.09.25-15.12.02:324][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.09.25-15.12.02:324][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.09.25-15.12.02:349][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.25-15.12.02:359][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.25-15.12.02:407][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../Epic Games/UnrealProjects/BLOGPOST7/Intermediate/Shaders/WorkingDirectory/1176/).
-[2018.09.25-15.12.02:407][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bheagney/AppData/Local/Temp/UnrealShaderWorkingDir/E51FE6C742E54F68BFA8FAB01F4E61C1/'.
-[2018.09.25-15.12.02:407][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.25-15.12.03:028][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.25-15.12.03:062][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.25-15.12.03:096][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.25-15.12.03:130][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.25-15.12.03:165][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.25-15.12.03:211][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.25-15.12.03:254][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.25-15.12.03:289][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.25-15.12.03:318][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.25-15.12.03:351][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.09.25-15.12.03:385][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.09.25-15.12.03:417][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.09.25-15.12.03:451][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.09.25-15.12.03:484][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.09.25-15.12.03:554][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.09.25-15.12.03:554][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.09.25-15.12.03:590][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.25-15.12.03:616][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.25-15.12.03:682][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.25-15.12.03:699][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.25-15.12.03:732][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.25-15.12.03:766][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.25-15.12.03:799][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.25-15.12.03:832][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.25-15.12.03:832][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.25-15.12.04:113][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.25-15.12.04:165][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/bheagney/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.09.25-15.12.04:165][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bheagney/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.09.25-15.12.04:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Epic Games/UnrealProjects/BLOGPOST7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.25-15.12.04:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.25-15.12.04:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Epic Games/UnrealProjects/BLOGPOST7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.25-15.12.04:165][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.25-15.12.04:177][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.25-15.12.04:188][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bheagney/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.25-15.12.04:195][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.25-15.12.04:196][  0]LogSlate: Using Freetype 2.6.0
-[2018.09.25-15.12.04:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.25-15.12.04:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.25-15.12.04:469][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.25-15.12.04:694][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.25-15.12.04:719][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.25-15.12.04:719][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.25-15.12.04:719][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.25-15.12.04:719][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.09.25-15.12.04:719][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.09.25-15.12.04:744][  0]LogNetVersion: BLOGPOST7 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3821450186)
-[2018.09.25-15.12.04:871][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
-[2018.09.25-15.12.05:239][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.036915 seconds
-[2018.09.25-15.12.05:244][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.09.25-15.12.05:244][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.09.25-15.12.05:244][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.25-15.12.05:275][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.09.25-15.12.07:261][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.25-15.12.07:298][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.25-15.12.07:786][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.09.25-15.12.08:075][  0]SourceControl: Source control is disabled
-[2018.09.25-15.12.08:075][  0]SourceControl: Source control is disabled
-[2018.09.25-15.12.08:112][  0]SourceControl: Source control is disabled
-[2018.09.25-15.12.08:149][  0]SourceControl: Source control is disabled
-[2018.09.25-15.12.08:708][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.25-15.12.08:896][  0]LogOcInput: OculusInput pre-init called
-[2018.09.25-15.12.09:094][  0]LogEngine: Initializing Engine...
-[2018.09.25-15.12.09:096][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.25-15.12.09:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.25-15.12.09:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.25-15.12.09:329][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.25-15.12.09:344][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-15.12.09:411][  0]LogInit: FAudioDevice initialized.
-[2018.09.25-15.12.09:462][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/bheagney/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.09.25-15.12.09:480][  0]LogInit: Texture streaming: Enabled
-[2018.09.25-15.12.09:535][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.25-15.12.09:621][  0]LogInit: Transaction tracking system initialized
-[2018.09.25-15.12.09:822][  0]BlueprintLog: New page: Editor Load
-[2018.09.25-15.12.10:390][  0]LocalizationService: Localization service is disabled
-[2018.09.25-15.12.10:856][  0]LogConsoleResponse: Display: 
-[2018.09.25-15.12.10:988][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.25-15.12.10:988][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.25-15.12.10:988][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.25-15.12.11:356][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/' took 0.01s
-[2018.09.25-15.12.11:793][  0]SourceControl: Source control is disabled
-[2018.09.25-15.12.11:918][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program Files/UE_4.18/FeaturePacks/StarterContent.upack)
-[2018.09.25-15.12.11:922][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.09.25-15.12.11:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.09.25-15.12.11:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.09.25-15.12.11:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.09.25-15.12.11:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.09.25-15.12.11:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.09.25-15.12.11:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.09.25-15.12.11:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.09.25-15.12.11:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.09.25-15.12.11:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.09.25-15.12.11:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.09.25-15.12.11:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.09.25-15.12.11:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.09.25-15.12.11:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.09.25-15.12.12:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.09.25-15.12.12:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.09.25-15.12.12:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.09.25-15.12.12:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.09.25-15.12.12:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Fire01.uasset"
-[2018.09.25-15.12.12:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.09.25-15.12.12:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.09.25-15.12.12:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.09.25-15.12.12:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Light01.uasset"
-[2018.09.25-15.12.12:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.09.25-15.12.12:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Light02.uasset"
-[2018.09.25-15.12.12:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.09.25-15.12.12:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.09.25-15.12.12:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.09.25-15.12.12:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.09.25-15.12.12:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.09.25-15.12.12:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.09.25-15.12.12:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.09.25-15.12.12:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.09.25-15.12.12:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.09.25-15.12.12:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Steam01.uasset"
-[2018.09.25-15.12.12:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.09.25-15.12.12:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.09.25-15.12.12:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.09.25-15.12.12:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.09.25-15.12.12:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.09.25-15.12.12:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.09.25-15.12.12:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.09.25-15.12.12:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.09.25-15.12.12:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.09.25-15.12.12:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.09.25-15.12.12:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.09.25-15.12.12:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.09.25-15.12.12:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.09.25-15.12.12:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.09.25-15.12.12:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.09.25-15.12.12:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.09.25-15.12.12:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.09.25-15.12.12:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.09.25-15.12.12:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.09.25-15.12.12:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.09.25-15.12.12:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.09.25-15.12.12:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.09.25-15.12.12:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Maps/StarterMap.umap"
-[2018.09.25-15.12.12:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.09.25-15.12.12:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.09.25-15.12.12:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.09.25-15.12.12:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.09.25-15.12.12:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.09.25-15.12.12:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.09.25-15.12.12:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.09.25-15.12.12:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.09.25-15.12.12:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.09.25-15.12.12:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.09.25-15.12.12:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.09.25-15.12.12:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.09.25-15.12.12:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.09.25-15.12.12:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.09.25-15.12.12:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.09.25-15.12.12:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.09.25-15.12.12:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.09.25-15.12.12:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.09.25-15.12.12:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.09.25-15.12.12:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.09.25-15.12.12:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.09.25-15.12.12:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.09.25-15.12.12:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.09.25-15.12.12:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.09.25-15.12.12:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.09.25-15.12.12:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.09.25-15.12.12:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.09.25-15.12.12:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.09.25-15.12.12:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.09.25-15.12.12:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.09.25-15.12.12:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.09.25-15.12.12:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.09.25-15.12.12:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.09.25-15.12.12:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.09.25-15.12.12:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.09.25-15.12.12:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.09.25-15.12.12:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.09.25-15.12.12:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.09.25-15.12.12:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.09.25-15.12.12:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.09.25-15.12.12:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.09.25-15.12.12:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.09.25-15.12.12:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.09.25-15.12.12:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.09.25-15.12.12:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.09.25-15.12.12:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.09.25-15.12.12:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.09.25-15.12.12:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.09.25-15.12.12:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.09.25-15.12.12:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.09.25-15.12.12:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.09.25-15.12.12:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.09.25-15.12.12:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.09.25-15.12.12:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.09.25-15.12.12:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.09.25-15.12.12:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.09.25-15.12.12:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.09.25-15.12.12:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.09.25-15.12.12:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.09.25-15.12.12:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.09.25-15.12.13:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.09.25-15.12.13:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.09.25-15.12.13:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.09.25-15.12.13:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.09.25-15.12.13:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.09.25-15.12.13:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Door.uasset"
-[2018.09.25-15.12.13:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.09.25-15.12.13:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.09.25-15.12.13:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.09.25-15.12.13:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.09.25-15.12.13:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.09.25-15.12.13:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.09.25-15.12.13:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.09.25-15.12.13:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.09.25-15.12.13:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.09.25-15.12.13:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.09.25-15.12.13:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.09.25-15.12.13:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.09.25-15.12.13:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.09.25-15.12.13:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.09.25-15.12.13:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.09.25-15.12.13:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.09.25-15.12.13:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.09.25-15.12.13:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.09.25-15.12.13:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.09.25-15.12.13:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.09.25-15.12.13:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.09.25-15.12.13:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.09.25-15.12.13:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.09.25-15.12.13:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.09.25-15.12.13:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.09.25-15.12.13:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.09.25-15.12.13:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.09.25-15.12.13:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.09.25-15.12.13:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.09.25-15.12.13:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.09.25-15.12.13:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.09.25-15.12.13:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.09.25-15.12.13:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.09.25-15.12.13:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.09.25-15.12.13:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.09.25-15.12.13:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.09.25-15.12.13:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.09.25-15.12.13:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.09.25-15.12.13:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.09.25-15.12.13:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.09.25-15.12.13:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.09.25-15.12.13:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.09.25-15.12.13:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.09.25-15.12.13:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.09.25-15.12.13:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.09.25-15.12.13:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.09.25-15.12.13:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.09.25-15.12.13:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.09.25-15.12.13:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.09.25-15.12.13:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.09.25-15.12.13:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.09.25-15.12.13:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.09.25-15.12.13:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.09.25-15.12.13:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.09.25-15.12.13:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.09.25-15.12.13:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.09.25-15.12.13:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.09.25-15.12.13:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.09.25-15.12.13:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.09.25-15.12.13:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.09.25-15.12.13:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.09.25-15.12.13:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.09.25-15.12.13:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.09.25-15.12.13:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.09.25-15.12.13:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.09.25-15.12.14:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.09.25-15.12.14:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.09.25-15.12.14:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.09.25-15.12.14:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.09.25-15.12.14:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.09.25-15.12.14:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.09.25-15.12.14:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.09.25-15.12.14:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.09.25-15.12.14:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.09.25-15.12.14:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.09.25-15.12.14:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.09.25-15.12.14:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.09.25-15.12.14:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.09.25-15.12.14:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.09.25-15.12.14:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.09.25-15.12.14:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.09.25-15.12.14:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.09.25-15.12.14:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.09.25-15.12.14:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.09.25-15.12.15:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.09.25-15.12.15:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.09.25-15.12.15:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.09.25-15.12.15:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.09.25-15.12.15:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.09.25-15.12.15:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.09.25-15.12.15:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.09.25-15.12.15:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.09.25-15.12.15:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.09.25-15.12.15:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.09.25-15.12.15:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.09.25-15.12.15:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.09.25-15.12.15:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.09.25-15.12.15:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.09.25-15.12.15:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.09.25-15.12.15:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.09.25-15.12.15:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.09.25-15.12.15:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.09.25-15.12.15:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.09.25-15.12.15:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.09.25-15.12.15:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.09.25-15.12.15:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.09.25-15.12.16:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.09.25-15.12.16:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.09.25-15.12.16:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.09.25-15.12.16:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.09.25-15.12.16:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.09.25-15.12.16:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.09.25-15.12.16:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.09.25-15.12.16:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.09.25-15.12.16:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.09.25-15.12.16:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.09.25-15.12.16:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.09.25-15.12.16:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.09.25-15.12.16:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.09.25-15.12.17:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.09.25-15.12.17:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.09.25-15.12.17:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.09.25-15.12.17:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.09.25-15.12.17:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.09.25-15.12.17:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.09.25-15.12.17:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.09.25-15.12.17:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.09.25-15.12.17:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.09.25-15.12.17:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.09.25-15.12.17:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.09.25-15.12.17:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.09.25-15.12.17:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.09.25-15.12.17:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.09.25-15.12.17:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.09.25-15.12.17:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.09.25-15.12.17:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.09.25-15.12.17:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.09.25-15.12.17:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.09.25-15.12.17:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.09.25-15.12.17:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.09.25-15.12.17:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.09.25-15.12.17:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.09.25-15.12.17:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.09.25-15.12.17:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.09.25-15.12.17:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.09.25-15.12.18:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.09.25-15.12.18:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.09.25-15.12.18:129][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.09.25-15.12.18:201][  0]LogSavePackage: Save=7.58ms
-[2018.09.25-15.12.18:201][  0]LogSavePackage: Moving '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Saved/Floor_400x400E999503444B6CC9C1B06648066661DE4.tmp' to '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.09.25-15.12.18:203][  0]LogSavePackage: Display: Finished SavePackage ../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.09.25-15.12.18:203][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.09.25-15.12.18:204][  0]Cmd: MAP LOAD FILE="../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.25-15.12.18:204][  0]LightingResults: New page: Lighting Build
-[2018.09.25-15.12.18:229][  0]MapCheck: New page: Map Check
-[2018.09.25-15.12.18:229][  0]LightingResults: New page: Lighting Build
-[2018.09.25-15.12.18:597][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.09.25-15.12.18:605][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.25-15.12.18:614][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.25-15.12.18:657][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.472ms to complete.
-[2018.09.25-15.12.18:658][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.454
-[2018.09.25-15.12.18:777][  0]LogCollectionManager: Loaded 0 collections in 0.000672 seconds
-[2018.09.25-15.12.18:853][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Saved/Collections/' took 0.01s
-[2018.09.25-15.12.18:853][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Developers/bheagney/Collections/' took 0.01s
-[2018.09.25-15.12.18:853][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Collections/' took 0.01s
-[2018.09.25-15.12.18:853][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.25-15.12.18:859][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2363 classes and 519 folders.
-[2018.09.25-15.12.18:897][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.25-15.12.18:936][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.25-15.12.18:963][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.09.25-15.12.18:976][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.25-15.12.18:977][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.25-15.12.18:981][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.25-15.12.19:008][  0]LogRenderer: Reallocating scene render targets to support 976x552 Format 10 NumSamples 1 (Frame:1).
-[2018.09.25-15.12.19:048][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.09.25-15.12.19:139][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.09.25-15.12.19:139][  0]LogLoad: (Engine Initialization) Total time: 19.61 seconds
-[2018.09.25-15.12.19:139][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.25-15.12.19:139][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.09.25-15.12.19:149][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.25-15.12.19:163][  0]LogAssetRegistry: Asset discovery search completed in 14.3142 seconds
-[2018.09.25-15.12.19:164][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.25-15.12.19:164][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.09.25-15.12.19:235][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.25-15.12.32:269][544]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.09.25-15.12.32:399][544]LogSavePackage: Save=111.28ms
-[2018.09.25-15.12.32:399][544]LogSavePackage: Moving '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Saved/FirstPersonExampleMapCA0619D94D280B8A7CF9ACAD778B21F6.tmp' to '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.09.25-15.12.32:402][544]LogSavePackage: Display: Finished SavePackage ../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2018.09.25-15.12.33:403][544]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.25-15.12.33:406][544]LogSavePackage: Save=989.93ms
-[2018.09.25-15.12.33:406][544]LogSavePackage: Moving '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Saved/FirstPersonExampleMap_BuiltData42743CE040021A79B3E08F9743BAAADE.tmp' to '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.09.25-15.12.33:408][544]LogSavePackage: Display: Finished SavePackage ../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.09.25-15.12.54:891][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Heagney01BP" FILE="../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Heagney01BP.uasset" SILENT=true
-[2018.09.25-15.12.54:898][722]LogSavePackage: Save=5.38ms
-[2018.09.25-15.12.54:898][722]LogSavePackage: Moving '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Saved/Heagney01BP1055DD6C4B81E1136623CD9E9401005F.tmp' to '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Heagney01BP.uasset'
-[2018.09.25-15.12.54:899][722]LogSavePackage: Display: Finished SavePackage ../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Heagney01BP.uasset
-[2018.09.25-15.12.57:237][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.25-15.12.57:379][  1]Cmd: QUIT_EDITOR
-[2018.09.25-15.12.57:406][  1]LogExit: Preparing to exit.
-[2018.09.25-15.12.58:372][  1]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/' was aborted.
-[2018.09.25-15.12.58:395][  1]LogExit: Editor shut down
-[2018.09.25-15.12.58:397][  1]LogExit: Transaction tracking system shut down
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/' was aborted.
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.09.25-15.12.58:559][  1]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.09.25-15.12.58:598][  1]LogExit: Object subsystem successfully closed.
-[2018.09.25-15.12.58:619][  1]LogD3D11RHI: Shutdown
-[2018.09.25-15.12.58:619][  1]LogD3D11RHI: CleanupD3DDevice
-[2018.09.25-15.12.58:620][  1]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.09.25-15.12.58:628][  1]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.09.25-15.12.58:628][  1]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.09.25-15.12.58:628][  1]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.09.25-15.12.58:628][  1]LogDirectoryWatcher: A directory notification for 'D:/Program Files/UE_4.18/FeaturePacks/' was aborted.
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.09.25-15.12.58:643][  1]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Collections/' was aborted.
-[2018.09.25-15.12.58:643][  1]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Developers/bheagney/Collections/' was aborted.
-[2018.09.25-15.12.58:643][  1]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Saved/Collections/' was aborted.
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.09.25-15.12.58:643][  1]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.09.25-15.12.58:644][  1]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.09.25-15.12.58:644][  1]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.09.25-15.12.58:644][  1]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.09.25-15.12.58:644][  1]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.09.25-15.12.58:644][  1]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.09.25-15.12.58:644][  1]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.09.25-15.12.58:657][  1]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.09.25-15.12.58:658][  1]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.09.25-15.12.58:658][  1]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.09.25-15.12.58:658][  1]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.09.25-15.12.58:658][  1]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.09.25-15.12.58:658][  1]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.09.25-15.12.58:720][  1]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.09.25-15.12.58:721][  1]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.09.25-15.12.58:890][  1]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.09.25-15.12.58:891][  1]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.09.25-15.12.58:892][  1]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.09.25-15.12.58:993][  1]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.09.25-15.12.59:289][  1]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.09.25-15.12.59:289][  1]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.09.25-15.12.59:289][  1]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.09.25-15.12.59:289][  1]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.09.25-15.12.59:289][  1]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.09.25-15.12.59:289][  1]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.09.25-15.12.59:290][  1]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.09.25-15.12.59:290][  1]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.09.25-15.12.59:290][  1]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.09.25-15.12.59:290][  1]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.09.25-15.12.59:291][  1]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.09.25-15.12.59:291][  1]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.09.25-15.12.59:291][  1]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.09.25-15.12.59:291][  1]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.09.25-15.12.59:291][  1]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.09.25-15.12.59:291][  1]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.09.25-15.12.59:297][  1]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.09.25-15.12.59:299][  1]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.09.25-15.12.59:738][  1]LogDerivedDataCache: Shutdown
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.09.25-15.12.59:738][  1]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.09.25-15.12.59:738][  1]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.09.25-15.12.59:738][  1]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA0F6EB9C-4966-DAC6-B354-5085F71C5962%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=e5d1508945f9890c5c98fbab3da8f30b%7C3a15c16e62a1446098e2e692bc3c59ca%7Ca73dd8ab-43ef-4f55-822c-0f30b9060ab2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.09.25-15.12.59:744][  1]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.09.25-15.12.59:744][  1]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.09.25-15.12.59:744][  1]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.09.25-15.12.59:744][  1]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.09.25-15.12.59:744][  1]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.09.25-15.12.59:745][  1]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.09.25-15.12.59:748][  1]LogExit: Exiting.
-[2018.09.25-15.12.59:752][  1]Log file closed, 09/25/18 11:12:59
+[2018.09.25-15.24.30:718][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-15.24.30:718][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.25-15.24.30:724][  0]LogInit: Computer: NQSC125-MSI-INS
+[2018.09.25-15.24.30:724][  0]LogInit: User: bheagney
+[2018.09.25-15.24.30:724][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.25-15.24.30:724][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2018.09.25-15.24.30:724][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.09.25-15.24.30:724][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.25-15.24.30:724][  0]LogMemory: Process Physical Memory: 272.34 MB used, 272.34 MB peak
+[2018.09.25-15.24.30:724][  0]LogMemory: Process Virtual Memory: 271.83 MB used, 271.83 MB peak
+[2018.09.25-15.24.30:724][  0]LogMemory: Physical Memory: 5699.36 MB used,  27013.15 MB free, 32712.52 MB total
+[2018.09.25-15.24.30:724][  0]LogMemory: Virtual Memory: 4775.96 MB used,  27013.15 MB free, 134217728.00 MB total
+[2018.09.25-15.24.30:807][  0]LogInit: Using OS detected language (en-US).
+[2018.09.25-15.24.30:807][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.25-15.24.30:810][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.25-15.24.31:113][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.25-15.24.31:355][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.25-15.24.31:394][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.25-15.24.31:394][  0]LogD3D11RHI:       8096/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.25-15.24.31:395][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.25-15.24.31:395][  0]LogD3D11RHI:       0/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.25-15.24.31:395][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.25-15.24.31:400][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.25-15.24.31:400][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.25-15.24.31:400][  0]LogWindows: EnumDisplayDevices:
+[2018.09.25-15.24.31:400][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.25-15.24.31:400][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.25-15.24.31:400][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.25-15.24.31:400][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.25-15.24.31:400][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.25-15.24.31:400][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.25-15.24.31:400][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.25-15.24.31:400][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.25-15.24.31:400][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.09.25-15.24.31:423][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.25-15.24.31:439][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.25-15.24.31:486][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../Epic Games/UnrealProjects/BLOGPOST7/Intermediate/Shaders/WorkingDirectory/10964/).
+[2018.09.25-15.24.31:486][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bheagney/AppData/Local/Temp/UnrealShaderWorkingDir/59BD1AAD47A2DDBB21017B98D5E66490/'.
+[2018.09.25-15.24.31:486][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.25-15.24.32:108][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.25-15.24.32:142][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.25-15.24.32:176][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.25-15.24.32:209][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.25-15.24.32:243][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.25-15.24.32:277][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.25-15.24.32:312][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.25-15.24.32:346][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.25-15.24.32:375][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.25-15.24.32:408][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.25-15.24.32:442][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.25-15.24.32:475][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.25-15.24.32:508][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.25-15.24.32:542][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.25-15.24.32:608][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.25-15.24.32:608][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.25-15.24.32:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.25-15.24.32:667][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.25-15.24.32:733][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.25-15.24.32:750][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.25-15.24.32:783][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.25-15.24.32:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.25-15.24.32:850][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.25-15.24.32:883][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.25-15.24.32:883][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.25-15.24.33:161][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.25-15.24.33:212][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/bheagney/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.09.25-15.24.33:212][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bheagney/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.09.25-15.24.33:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Epic Games/UnrealProjects/BLOGPOST7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.25-15.24.33:212][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.25-15.24.33:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Epic Games/UnrealProjects/BLOGPOST7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.25-15.24.33:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.25-15.24.33:225][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.25-15.24.33:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bheagney/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.25-15.24.33:245][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.25-15.24.33:245][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.25-15.24.33:245][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.25-15.24.33:245][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.25-15.24.33:517][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.25-15.24.33:738][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.25-15.24.33:763][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.25-15.24.33:763][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.25-15.24.33:763][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.25-15.24.33:763][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.25-15.24.33:763][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.25-15.24.33:786][  0]LogNetVersion: BLOGPOST7 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3821450186)
+[2018.09.25-15.24.33:908][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.09.25-15.24.34:267][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.037656 seconds
+[2018.09.25-15.24.34:272][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.09.25-15.24.34:272][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.09.25-15.24.34:272][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.25-15.24.34:301][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.09.25-15.24.36:227][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.25-15.24.36:260][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.25-15.24.36:746][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.25-15.24.37:040][  0]SourceControl: Source control is disabled
+[2018.09.25-15.24.37:040][  0]SourceControl: Source control is disabled
+[2018.09.25-15.24.37:078][  0]SourceControl: Source control is disabled
+[2018.09.25-15.24.37:116][  0]SourceControl: Source control is disabled
+[2018.09.25-15.24.37:691][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.25-15.24.37:884][  0]LogOcInput: OculusInput pre-init called
+[2018.09.25-15.24.38:085][  0]LogEngine: Initializing Engine...
+[2018.09.25-15.24.38:086][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.25-15.24.38:242][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.25-15.24.38:242][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.25-15.24.38:325][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.25-15.24.38:340][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-15.24.38:431][  0]LogInit: FAudioDevice initialized.
+[2018.09.25-15.24.38:483][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/bheagney/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.09.25-15.24.38:492][  0]LogInit: Texture streaming: Enabled
+[2018.09.25-15.24.38:547][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.25-15.24.38:627][  0]LogInit: Transaction tracking system initialized
+[2018.09.25-15.24.38:915][  0]BlueprintLog: New page: Editor Load
+[2018.09.25-15.24.39:464][  0]LocalizationService: Localization service is disabled
+[2018.09.25-15.24.39:932][  0]LogConsoleResponse: Display: 
+[2018.09.25-15.24.40:069][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.25-15.24.40:069][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.25-15.24.40:069][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.25-15.24.40:202][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/' took 0.01s
+[2018.09.25-15.24.40:867][  0]SourceControl: Source control is disabled
+[2018.09.25-15.24.40:867][  0]Cmd: MAP LOAD FILE="../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.25-15.24.40:867][  0]LightingResults: New page: Lighting Build
+[2018.09.25-15.24.40:894][  0]MapCheck: New page: Map Check
+[2018.09.25-15.24.40:894][  0]LightingResults: New page: Lighting Build
+[2018.09.25-15.24.41:243][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.09.25-15.24.41:251][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.25-15.24.41:260][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.25-15.24.41:304][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.691ms to complete.
+[2018.09.25-15.24.41:304][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.438
+[2018.09.25-15.24.41:418][  0]LogCollectionManager: Loaded 0 collections in 0.000786 seconds
+[2018.09.25-15.24.41:481][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Saved/Collections/' took 0.01s
+[2018.09.25-15.24.41:481][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Developers/bheagney/Collections/' took 0.01s
+[2018.09.25-15.24.41:481][  0]LogFileCache: Scanning file cache for directory 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Collections/' took 0.01s
+[2018.09.25-15.24.41:482][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.25-15.24.41:488][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2363 classes and 519 folders.
+[2018.09.25-15.24.41:534][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-15.24.41:573][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.25-15.24.41:601][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.25-15.24.41:614][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.25-15.24.41:615][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.25-15.24.41:619][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.25-15.24.41:694][  0]LogRenderer: Reallocating scene render targets to support 976x552 Format 10 NumSamples 1 (Frame:1).
+[2018.09.25-15.24.41:835][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.25-15.24.41:835][  0]LogLoad: (Engine Initialization) Total time: 12.91 seconds
+[2018.09.25-15.24.41:835][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.25-15.24.41:835][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.09.25-15.24.41:846][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-15.24.41:860][  0]LogAssetRegistry: Asset discovery search completed in 7.9743 seconds
+[2018.09.25-15.24.41:861][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.25-15.24.41:861][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.09.25-15.24.41:864][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.25-15.24.41:974][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.25-15.24.57:877][898]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.25-15.25.07:669][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Heagney02BP" FILE="../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Heagney02BP.uasset" SILENT=true
+[2018.09.25-15.25.07:675][729]LogSavePackage: Save=5.25ms
+[2018.09.25-15.25.07:675][729]LogSavePackage: Moving '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Saved/Heagney02BP90CE926541DEF326919AF79F1AEF8FED.tmp' to '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Heagney02BP.uasset'
+[2018.09.25-15.25.07:677][729]LogSavePackage: Display: Finished SavePackage ../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/FirstPersonBP/Heagney02BP.uasset
+[2018.09.25-15.25.16:234][752]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-15.25.16:384][753]Cmd: QUIT_EDITOR
+[2018.09.25-15.25.16:409][753]LogExit: Preparing to exit.
+[2018.09.25-15.25.17:323][753]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/' was aborted.
+[2018.09.25-15.25.17:336][753]LogExit: Editor shut down
+[2018.09.25-15.25.17:338][753]LogExit: Transaction tracking system shut down
+[2018.09.25-15.25.17:512][753]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.09.25-15.25.17:512][753]LogDirectoryWatcher: A directory notification for '../../../../../Epic Games/UnrealProjects/BLOGPOST7/Content/' was aborted.
+[2018.09.25-15.25.17:512][753]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.09.25-15.25.17:512][753]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.09.25-15.25.17:512][753]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.09.25-15.25.17:513][753]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.09.25-15.25.17:513][753]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.09.25-15.25.17:547][753]LogExit: Object subsystem successfully closed.
+[2018.09.25-15.25.17:564][753]LogD3D11RHI: Shutdown
+[2018.09.25-15.25.17:564][753]LogD3D11RHI: CleanupD3DDevice
+[2018.09.25-15.25.17:565][753]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.25-15.25.17:571][753]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.09.25-15.25.17:571][753]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.09.25-15.25.17:571][753]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.09.25-15.25.17:571][753]LogDirectoryWatcher: A directory notification for 'D:/Program Files/UE_4.18/FeaturePacks/' was aborted.
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.09.25-15.25.17:572][753]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Collections/' was aborted.
+[2018.09.25-15.25.17:572][753]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Content/Developers/bheagney/Collections/' was aborted.
+[2018.09.25-15.25.17:572][753]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UnrealProjects/BLOGPOST7/Saved/Collections/' was aborted.
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.09.25-15.25.17:572][753]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.09.25-15.25.17:573][753]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.09.25-15.25.17:727][753]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.09.25-15.25.17:728][753]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.09.25-15.25.17:792][753]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.09.25-15.25.17:793][753]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.09.25-15.25.17:856][753]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.09.25-15.25.17:857][753]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.09.25-15.25.17:858][753]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.09.25-15.25.17:959][753]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.09.25-15.25.18:251][753]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.09.25-15.25.18:251][753]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.09.25-15.25.18:251][753]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.09.25-15.25.18:251][753]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.09.25-15.25.18:251][753]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.09.25-15.25.18:251][753]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.09.25-15.25.18:252][753]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.09.25-15.25.18:252][753]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.09.25-15.25.18:252][753]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.09.25-15.25.18:252][753]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.09.25-15.25.18:253][753]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.09.25-15.25.18:254][753]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.09.25-15.25.18:254][753]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.09.25-15.25.18:254][753]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.09.25-15.25.18:254][753]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.09.25-15.25.18:254][753]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.09.25-15.25.18:259][753]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.09.25-15.25.18:261][753]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.09.25-15.25.18:272][753]LogDerivedDataCache: Shutdown
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.09.25-15.25.18:272][753]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.09.25-15.25.18:273][753]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.09.25-15.25.18:273][753]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.25-15.25.18:273][753]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5712FFB6-4BC1-29CD-EC28-74838BB105BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=e5d1508945f9890c5c98fbab3da8f30b%7C3a15c16e62a1446098e2e692bc3c59ca%7Ca73dd8ab-43ef-4f55-822c-0f30b9060ab2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.25-15.25.18:302][753]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.09.25-15.25.18:302][753]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.25-15.25.18:302][753]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.25-15.25.18:303][753]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.25-15.25.18:306][753]LogExit: Exiting.
+[2018.09.25-15.25.18:310][753]Log file closed, 09/25/18 11:25:18
